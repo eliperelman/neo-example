@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "My React-based Example App",
   "license": "MPL-2.0",
-  "entry": "index.js",
   "config": {
+    "entry": "src/entry.js",
     "ghooks": {
       "pre-commit": "npm test"
     },
@@ -26,7 +26,7 @@
     "expose-loader": "0.7.1",
     "ghooks": "1.2.1",
     "jquery": "2.2.3",
-    "mozilla-neo": "1.0.0",
+    "mozilla-neo": "1.0.2",
     "react": "15.0.2",
     "react-addons-test-utils": "15.0.2",
     "react-dom": "15.0.2",
